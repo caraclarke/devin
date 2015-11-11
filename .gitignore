@@ -1,0 +1,9 @@
+foundation-5.5.3/humans.txt
+foundation-5.5.3/robots.txt
+foundation-5.5.3/index.html
+foundation-5.5.3/img/*
+foundation-5.5.3/css/*
+foundation-5.5.3/js/*
+!foundation-5.5.3/css/foundation.min.css
+!foundation-5.5.3/css/normalize.css
+!foundation-5.5.3/js/foundation.min.js
