@@ -1,3 +1,26 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+.about-me {
+  margin-bottom: 500px;
+}
+
+.about-me-title {
+  font-family: 'Manbow';
+  font-size: 250px;
+  margin-top: -25px;
+  position: absolute;
+}
+
+.about-me p {
+  position: relative;
+  top: 425px;
+  left: 550px;
+  height: 200px;
+  width: 325px;
+}
+
 @media only screen and (min-width: 40em) {
   .top-bar {
     text-align: center;
@@ -19,7 +42,7 @@
     margin-top: 10px;
   }
 
-  a, i {
+  a {
     color: #000;
   }
 
@@ -72,9 +95,4 @@
 
 .logo {
   margin-top: .5rem;
-}
-
-/* !!!!! TEMP !!!! */
-.columns {
-  display: none;
 }
