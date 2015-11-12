@@ -11,6 +11,26 @@ body {
   font-size: 250px;
   margin-top: -25px;
   position: absolute;
+  z-index: 1;
+}
+
+.hold-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  left: 390px;
+  bottom: 5px;
+  overflow: hidden;
+}
+
+.about-me img {
+  height: 130px;
+  width: auto;
+  position: relative;
+  top: 115px;
+  left: 110px;
+  z-index: 0;
 }
 
 .about-me p {
