@@ -73,7 +73,7 @@ body {
 
   .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #fff;
-  }
+ 145px }
 
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #fff;
@@ -103,6 +103,15 @@ body {
 
 }
 
+nav.top-bar {
+  background-color: #fff;
+}
+
+.top-bar .toggle-topbar.menu a {
+  color: #000;
+  font-weight: bold;
+}
+
 .logo {
   max-width: 145px;
   margin-top: -3px;
@@ -110,7 +119,11 @@ body {
 }
 
 .menu-icon {
-  padding-top: 120px;
+  padding-top: 1.2rem;
+}
+
+.top-bar.expanded {
+  background: #fff;
 }
 
 .logo {

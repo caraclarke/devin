@@ -13,8 +13,14 @@
 
     <nav class="top-bar" data-topbar>
       <ul class="title-area">
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      <a class="toggle-topbar menu" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Menu</a>
+          <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+            <li>dd data-magellan-arrival="about-me"><a href="#about-me">About Me</a></dd></li>
+            <li><dd data-magellan-arrival="ux-portfolio"><a href="#ux-portfolio">UX Portfolio</a></dd></li>
+            <li><dd data-magellan-arrival="community"><a href="#community">CommuniT Boston</a></dd></li>
+            <li><dd data-magellan-arrival="other"><a href="#other">Other</a></dd></li>
+            <li><dd data-magellan-arrival="blog"><a href="#blog">Blog</a></dd></li>
+          </ul>
       </ul>
       <div class="logo">
         <a href="#about-me"><img src="images/eye-logo.png"></a>
