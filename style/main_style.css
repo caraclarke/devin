@@ -1,11 +1,49 @@
-.sub-nav {
-  text-align: center;
-  margin-left: 175px;
+@media only screen and (min-width: 40em) {
+  .top-bar {
+    text-align: center;
+    margin-bottom: 50px;
+    background: transparent;
+  }
+
+  ul.center-links {
+    display: inline-block;
+  }
+
+  .top-bar-section ul li {
+    background-color: #fff;
+    background: transparent;
+  }
+
+  a {
+    color: #000;
+  }
+
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: #fff;
+  }
+
+  .logo {
+    left: 5px;
+    top: -2px;
+    position: absolute;
+  }
 }
 
-.sub-nav i {
-  color: #000;
-  padding: 5px;
-  height: 15px;
-  width: auto;
+.logo {
+  max-width: 128px;
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.menu-icon {
+  padding-top: 1.2rem;
+}
+
+.logo {
+  margin-top: .5rem;
+}
+
+/* !!!!! TEMP !!!! */
+.columns {
+  display: none;
 }
