@@ -1,8 +1,18 @@
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #fff;
+}
+
+.fixed {
+  background-color: #fff;
+}
+
 @media only screen and (min-width: 40em) {
   .top-bar {
     text-align: center;
     margin-bottom: 50px;
     background: transparent;
+    margin-top: 25px;
   }
 
   ul.center-links {
@@ -44,6 +54,7 @@
   .logo a {
     position: relative;
     right: 50px;
+    top: -20px;
   }
 
   .center-links i {
