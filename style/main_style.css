@@ -14,8 +14,19 @@ body {
     display: inline-block;
   }
 
+  #bold-nav li > a:hover {
+    color: #000;
+    font-weight: bold;
+    background-color: #fff;
+  }
+
   li:hover {
     color: #000;
+  }
+
+  .center-links > li > a:hover {
+    color: #000;
+    font-weight: bold;
   }
 
   .top-bar-section li:not(.has-form) a:not(.button) {
