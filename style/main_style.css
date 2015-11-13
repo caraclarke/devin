@@ -1,5 +1,5 @@
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: #fff;
 }
 
@@ -81,6 +81,26 @@ body {
     margin-right: -15px;
   }
 
+  /* ux portfolio section */
+
+  .ux-portfolio {
+    margin-bottom: 100px;
+  }
+
+  .ux-portfolio h3 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 250px;
+  }
+
+  .hold-image-ux-portfolio img {
+    position: relative;
+    left: 500px;
+    height: 450px;
+    width: auto;
+  }
+
 }
 
 /* mobile resets */
@@ -113,7 +133,7 @@ body {
 
 .about-me {
   margin-top: 125px;
-  margin-bottom: 500px;
+  margin-bottom: 200px;
   margin-right: 25px;
 }
 
