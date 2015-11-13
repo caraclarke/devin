@@ -1,9 +1,26 @@
 body {
   font-family: 'Muli', sans-serif;
+  background-color: #fff;
+  margin-top: 125px;
 }
+
+/* eye image */
+.name {
+  max-width: 145px;
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.name img {
+  position: relative;
+  right: 50px;
+}
+
+/* about me section */
 
 .about-me {
   margin-bottom: 500px;
+  margin-right: 25px;
 }
 
 .about-me-title {
@@ -14,13 +31,14 @@ body {
   z-index: 1;
 }
 
+/* holding devin image in about me */
 .hold-image {
   height: 250px;
   width: 250px;
   border-radius: 50%;
   position: relative;
   left: 390px;
-  bottom: 5px;
+  bottom: 6px;
   overflow: hidden;
 }
 
@@ -41,6 +59,14 @@ body {
   width: 325px;
 }
 
+/* end about me */
+
+@media only screen and (max-width: 775px) {
+  .name {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 40em) {
   .top-bar {
     text-align: center;
@@ -57,7 +83,6 @@ body {
   }
 
   .top-bar-section ul li {
-    background-color: #fff;
     background: transparent;
     margin-top: 10px;
   }
@@ -72,28 +97,18 @@ body {
   }
 
   .top-bar-section li:not(.has-form) a:not(.button) {
-    background-color: #fff;
- 145px }
+    background: transparent;
+  }
 
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: #fff;
-  }
-
-  .logo {
-    left: 5px;
-    top: -2px;
-    position: absolute;
-  }
-
-  .logo a {
-    position: relative;
-    right: 50px;
+    background: transparent;
   }
 
   .center-links i {
     position: relative;
     left: 75px;
     color: #000;
+    margin: -10px;
   }
 
   .center-links {
@@ -104,18 +119,12 @@ body {
 }
 
 nav.top-bar {
-  background-color: #fff;
+  background: transparent;
 }
 
-.top-bar .toggle-topbar.menu a {
+.top-bar .toggle-topbar.menu-icon a {
   color: #000;
   font-weight: bold;
-}
-
-.logo {
-  max-width: 145px;
-  margin-top: -3px;
-  margin-left: 5px;
 }
 
 .menu-icon {
@@ -123,9 +132,5 @@ nav.top-bar {
 }
 
 .top-bar.expanded {
-  background: #fff;
-}
-
-.logo {
-  margin-top: .5rem;
+  background: transparent;
 }

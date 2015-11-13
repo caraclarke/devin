@@ -11,21 +11,12 @@
   </head>
   <body>
 
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-      <a class="toggle-topbar menu" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Menu</a>
-          <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-            <li>dd data-magellan-arrival="about-me"><a href="#about-me">About Me</a></dd></li>
-            <li><dd data-magellan-arrival="ux-portfolio"><a href="#ux-portfolio">UX Portfolio</a></dd></li>
-            <li><dd data-magellan-arrival="community"><a href="#community">CommuniT Boston</a></dd></li>
-            <li><dd data-magellan-arrival="other"><a href="#other">Other</a></dd></li>
-            <li><dd data-magellan-arrival="blog"><a href="#blog">Blog</a></dd></li>
-          </ul>
-      </ul>
-      <div class="logo">
-        <a href="#about-me"><img src="images/eye-logo.png"></a>
-      </div>
-      <div data-magellan-expedition="fixed">
+    <div data-magellan-expedition="fixed" class="fixed important-class">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name"><img src="images/eye-logo.png"></li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
         <section class="top-bar-section">
           <ul class="center-links">
             <li><dd data-magellan-arrival="about-me"><a href="#about-me">About Me</a></dd></li>
@@ -33,23 +24,15 @@
             <li><dd data-magellan-arrival="community"><a href="#community">CommuniT Boston</a></dd></li>
             <li><dd data-magellan-arrival="other"><a href="#other">Other</a></dd></li>
             <li><dd data-magellan-arrival="blog"><a href="#blog">Blog</a></dd></li>
-            <!-- side icons -->
-            <li>
-              <a href="mailto:devin.karbowicz@gmail.com"><i class="fa fa-lg fa-envelope"></i></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/artofnoticing/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="https://www.behance.net/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-behance fa-inverse"></i></a>
-            </li>
-        </ul>
+            <!-- right side icons -->
+            <li><a href="mailto:devin.karbowicz@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/artofnoticing/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a></li>
+            <li><a href="https://www.behance.net/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-behance fa-inverse"></i></a></li>
+          </ul>
         </section>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <div class="row">
       <div class="small-11 small-centered columns about-me">
