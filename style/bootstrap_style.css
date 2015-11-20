@@ -1,4 +1,48 @@
 body{
   position: relative;
   padding-top: 70px;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* about me section */
+
+#about-me {
+  margin-top: 75px;
+  margin-bottom: 125px;
+}
+
+#about-me h2 {
+  font-family: 'Manbow';
+  font-size: 275px;
+  margin-top: -50px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* holding devin image in about me */
+.hold-image {
+  height: 205px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  left: 440px;
+  overflow: hidden;
+}
+
+#about-me img {
+  height: 160px;
+  width: auto;
+  position: relative;
+  top: 40px;
+  left: 100px;
+  z-index: 0;
+}
+
+#about-me p {
+  position: relative;
+  top: 125px;
+  left: 550px;
+  height: 200px;
+  width: 325px;
 }
