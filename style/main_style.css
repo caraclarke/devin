@@ -8,9 +8,12 @@ body{
 /* navbar */
 
 .logo {
-  height: 50px;
-  width: 50px;
-  border: 1px solid red;
+  height: 100px;
+  width: auto;
+  position: relative;
+  right: 120px;
+  bottom: 15px;
+  background: transparent;
 }
 
 .navbar-nav i {
