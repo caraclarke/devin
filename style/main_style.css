@@ -7,13 +7,28 @@ body{
 
 /* navbar */
 
-.logo {
-  height: 100px;
-  width: auto;
-  position: relative;
-  right: 120px;
-  bottom: 15px;
-  background: transparent;
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
+
+  .logo {
+    position: relative;
+    right: 80px;
+    bottom: 15px;
+    background: transparent;
+  }
+
+  .logo img {
+    height: 100px;
+    width: auto;
+  }
 }
 
 .navbar-nav i {
@@ -76,6 +91,9 @@ body{
 }
 
 @media (max-width: 767px) {
+  .logo img {
+    display: none;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #000;
   }
