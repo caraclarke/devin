@@ -1,11 +1,28 @@
-foundation-5.5.3/humans.txt
-foundation-5.5.3/robots.txt
-foundation-5.5.3/index.html
-foundation-5.5.3/img/*
-foundation-5.5.3/css/*
-foundation-5.5.3/js/*
-!foundation-5.5.3/css/foundation.min.css
-!foundation-5.5.3/css/normalize.css
-!foundation-5.5.3/js/foundation.min.js
+# foundation-5.5.3/humans.txt
+# foundation-5.5.3/robots.txt
+# foundation-5.5.3/index.html
+# foundation-5.5.3/img/*
+# foundation-5.5.3/css/*
+# foundation-5.5.3/js/*
+# !foundation-5.5.3/css/foundation.min.css
+# !foundation-5.5.3/css/normalize.css
+# !foundation-5.5.3/js/foundation.min.js
 
 notes.txt
+
+# bower_components/bootstrap/*.json
+# bower_components/bootstrap/*.js
+# bower_components/bootstrap/README.md
+# bower_components/bootstrap/LICENSE
+# bower_components/bootstrap/fonts/*
+# bower_components/bootstrap/grunt/*
+# bower_components/bootstrap/js/*
+# bower_components/bootstrap/less/*
+# bower_components/bootstrap/dist/fonts/*
+# bower_components/bootstrap/dist/js/*
+# bower_components/bootstrap/dist/css/*
+# !bower_components/bootstrap/dist/css/bootstrap.min.css
+
+bower_components/*
+foundation-5.5.3/*
+index-bootstrap.html

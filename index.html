@@ -5,81 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Devin Karbowicz</title>
   <link href='https://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="foundation-5.5.3/css/foundation.min.css">
-  <link rel="stylesheet" href="foundation-5.5.3/css/normalize.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
-  <link type="text/css" rel="stylesheet" href="style/main_style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="style/bootstrap_style.css">
 </head>
-<body>
-
-  <div class="fixed">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-      <div class="logo">
-        <a href="#about-me"><img src="images/eye-logo.png"></a>
-      </div>
-      <section class="top-bar-section">
-        <ul class="center-links" id="bold-nav">
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#ux-portfolio">UX Portfolio</a></li>
-          <li><a href="#community">CommuniT Boston</a></li>
-          <li><a href="#other">Other</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <!-- icons -->
-          <li><a href="mailto:devin.karbowicz@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
-          <li><a href="https://www.instagram.com/artofnoticing/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a></li>
-          <li><a href="https://www.behance.net/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-behance"></i></a></li>
-        </ul>
-      </section>
+<body data-spy="scroll" data-target="#myNavbar" data-offset="15">
+  <nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="sr-only">Menu</span> <!-- when collapsed menu says Devin instead of image -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Menu</a> <!-- image here -->
+            </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#about-me">About Me</a></li>
+                    <li><a href="#ux-portfolio">UX Portfolio</a></li>
+                    <li><a href="#community">CommuniT</a></li>
+                    <li><a href="#other">Other</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <!-- icons -->
+                    <li><a href="mailto:devin.karbowicz@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/artofnoticing/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a></li>
+                    <li><a href="https://www.behance.net/devinkarbowicz" target="_blank"><i class="fa fa-lg fa-behance"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-  </div>
+    <div class="container">
+        <div id="about-me">
+          <h2>About Me</h2>
+        </div>
+        <hr>
+        <div id="ux-portfolio">
+          <h2>UX Portfolio</h2>
+        </div>
+        <hr>
+        <div id="community">
+          <h2>Community</h2>
+        </div>
+        <hr>
+          <div id="other">
+            <h2>Other</h2>
+        </div>
+        <hr>
+        <div id="blog">
+            <h2>Blog</h2>
+        </div>
+    </div> <!-- end main container -->
 
-    <div class="row">
-      <div class="small-11 small-centered columns about-me">
-        <h1 data-magellan-destination="about-me" class="about-me-title">About Me</h1>
-        <div class="hold-image"><img src="images/headshot-devin.png"></div>
-        <p>I grew up with a question mark studded to the tip of my tongue and have been following my curiosity ever since. I delight in connecting ideas and engaging in empathy-driven, creative problem solving.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-11 small-centered columns ux-portfolio">
-        <h3 data-magellan-destination="ux-portfolio" class="ux-portfolio-title">I wear a lot of different hats...</h3>
-        <div class="hold-image-ux-portfolio"><img src="images/headshot-devin.png"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-11 small-centered columns">
-        <h3 data-magellan-destination="community">CommuniT Boston</h3>
-        <a name="community"></a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-11 small-centered columns">
-        <h3 data-magellan-destination="other">Other</h3>
-        <a name="other"></a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="small-11 small-centered columns">
-        <h3 data-magellan-destination="Blog">Blog</h3>
-        <a name="Blog"></a>
-      </div>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- foundation js -->
-    <script type="text/javascript" src="foundation-5.5.3/js/foundation.min.js"></script>
-    <script type="text/javascript" src="foundation-5.5.3/js/vendor/jquery.js"></script>
-    <script type="text/javascript" src="foundation-5.5.3/js/foundation/foundation.magellan.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
 </html>
