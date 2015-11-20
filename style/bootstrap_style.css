@@ -7,6 +7,12 @@ body{
 
 /* navbar */
 
+.logo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid red;
+}
+
 .navbar-nav i {
   color: #000;
   margin-right: -15px;
