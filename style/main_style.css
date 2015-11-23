@@ -7,10 +7,37 @@ body{
 
 /* navbar */
 
-.logo {
-  height: 50px;
-  width: 50px;
-  border: 1px solid red;
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .logo {
+    position: relative;
+    right: 80px;
+    bottom: 15px;
+    background: transparent;
+  }
+
+  .logo img {
+    height: 100px;
+    width: auto;
+    margin-bottom: -30px;
+  }
+}
+
+.navbar-nav .fa-envelope {
+  margin-left: 100px;
+}
+
+.navbar-sections {
+  padding: 10px 15px;
 }
 
 .navbar-nav i {
@@ -72,7 +99,10 @@ body{
   font-weight: bold;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 760px) {
+  .logo img {
+    display: none;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #000;
   }
