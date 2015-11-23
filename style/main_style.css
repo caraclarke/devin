@@ -32,17 +32,17 @@ body{
   }
 }
 
-.navbar-nav i {
-  color: #000;
-  margin-right: -15px;
-}
-
 .navbar-nav .fa-envelope {
   margin-left: 100px;
 }
 
-.navbar-nav li {
+.navbar-sections {
   padding: 10px 15px;
+}
+
+.navbar-nav i {
+  color: #000;
+  margin-right: -15px;
 }
 
 .navbar-default {
