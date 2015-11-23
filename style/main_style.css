@@ -9,13 +9,13 @@ body{
 
 @media (min-width: 768px) {
   .navbar .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
   }
 
   .navbar .navbar-collapse {
-      text-align: center;
+    text-align: center;
   }
 
   .logo {
@@ -28,12 +28,21 @@ body{
   .logo img {
     height: 100px;
     width: auto;
+    margin-bottom: -30px;
   }
 }
 
 .navbar-nav i {
   color: #000;
   margin-right: -15px;
+}
+
+.navbar-nav .fa-envelope {
+  margin-left: 100px;
+}
+
+.navbar-nav li {
+  padding: 10px 15px;
 }
 
 .navbar-default {
@@ -90,7 +99,7 @@ body{
   font-weight: bold;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 760px) {
   .logo img {
     display: none;
   }
