@@ -183,6 +183,26 @@ h1 {
 }
 
 /* hats in about me */
+
+#preload {
+  display: none;
+}
+
+.grad-cap, .jester-hat, .comm-cap, .artist-cap, .nerd-hat, .kid-hat {
+  display: none;
+  background: transparent;
+}
+
+.content {
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/headshot-devin.png');
+  background-size: auto 75%;
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 /*#hats {
   height: 100vh;
   position: relative;
