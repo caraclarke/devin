@@ -1,130 +1,210 @@
-body{
-  position: relative;
-  padding-top: 70px;
-  color: #000;
-  font-family: 'Raleway', sans-serif;
+body, html {
+height: 100%;
+min-height: 100%;
+background-color: #fff;
 }
 
-/* navbar */
-
-.logo {
-  height: 50px;
-  width: 50px;
-  border: 1px solid red;
+.no-js {
+  padding-top: 106px;
+}
+h2 {
+  margin-top: 0;
+}
+/*.loading {
+  background: url('../img/ico_loading.gif') no-repeat center center;
+}*/
+section {
+  min-width: 960px;
+  opacity: 0;
+}
+.loaded section,
+.no-js section {
+  opacity: 1;
+  -webkit-transition: opacity 300ms ease-out;
+  -moz-transition: opacity 300ms ease-out;
+  transition: opacity 300ms ease-out;
 }
 
-.navbar-nav i {
-  color: #000;
-  margin-right: -15px;
+#hats {
+  overflow-x: hidden;
 }
 
-.navbar-default {
-  background-color: #fff;
-  border-color: #fff;
-  font-family: 'Raleway', sans-serif;
-}
-.navbar-default .navbar-brand {
-  color: #000;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #000;
-  font-weight: bold;
-}
-.navbar-default .navbar-text {
-  color: #000;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #000;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #000;
-  font-weight: bold;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #000;
-  background-color: #fff;
-  font-weight: bold;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #000;
-  background-color: #fff;
-  font-weight: bold;
-}
-.navbar-default .navbar-toggle {
-  border-color: #fff;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  font-weight: bold;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #000;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #000;
-}
-.navbar-default .navbar-link {
-  color: #000;
-}
-.navbar-default .navbar-link:hover {
-  color: #000;
-  font-weight: bold;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #000;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #000;
-    font-weight: bold;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #000;
-    background-color: #fff;
-    font-weight: bold;
-  }
-}
-
-/* about me section */
-
-#about-me {
-  margin-top: 75px;
-  margin-bottom: 125px;
-}
-
-#about-me h2 {
-  font-family: 'Manbow';
-  font-size: 275px;
-  margin-top: -50px;
-  position: absolute;
-  z-index: 1;
-}
-
-/* holding devin image in about me */
-.hold-image {
-  height: 205px;
-  width: 250px;
-  border-radius: 50%;
-  position: relative;
-  left: 440px;
+#preload {
+  width: 1px;
+  height: 1px;
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-#about-me img {
-  height: 160px;
-  width: auto;
-  position: relative;
-  top: 40px;
-  left: 100px;
-  z-index: 0;
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
-#about-me p {
+.hsContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   position: relative;
-  top: 125px;
-  left: 550px;
-  height: 200px;
-  width: 325px;
+}
+
+.hsContent {
+  max-width: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.hsContent h2  {
+  padding: 10px 5px;
+  font-size: 35px;
+  line-height: 38px;
+  margin-bottom: 12px;
+}
+.hsContent p {
+  width: 400px;
+  color: #b2b2b2;
+}
+/*.hsContent a {
+  color: #b2b2b2;
+  text-decoration: underline;
+}*/
+
+#hats h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+/* Slide 1 */
+.homeSlide .hsContent {
+  margin-left: -450px;
+  bottom: 200px;
+  top: auto;
+}
+.homeSlide .hsContent {
+  margin-left: -450px;
+  top: auto;
+}
+.homeSlide h2 {
+  position: fixed;
+  top: 70%;
+}
+
+/* Final slide */
+#slide-8 .hsContent {
+  margin-left: -450px;
+  position: fixed;
+  top: 250px;
+}
+
+#slide-8 h2 {
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+  *zoom: 1;
 }
