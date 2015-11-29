@@ -10,11 +10,4 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
   });
 
-  // $('.').css({
-  //   'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
-  // });
-
 });
-
-
-

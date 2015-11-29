@@ -184,6 +184,33 @@ h1 {
 
 /* hats in about me */
 
+/*.background-img {
+  background-image: url("../images/headshot-devin.png");
+  position: absolute;
+  right: 0;
+  min-height: 500px;
+  height: 400px;
+  width: auto;
+}
+
+.parallax img {
+  height: 150px;
+  width: auto;
+  float: left;
+}
+
+.parallax h1 {
+  padding-bottom: 75vh;
+}*/
+
+/*.hat-image img {
+  height: 65vh;
+  width: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+*/
+
 #preload {
   display: none;
 }
@@ -202,26 +229,6 @@ h1 {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-
-/*#hats {
-  height: 100vh;
-  position: relative;
-}*/
-
-/*.hats-title {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 75%;
-  width: 50%;
-  height: 30%;
-  margin: auto;
-}
-
-.hats-title h2 {
-  text-align: left;
-}*/
 
 #hats img {
   float: right;
