@@ -13,6 +13,10 @@ h1 {
   font-weight: 200;
 }
 
+.site-section {
+  height: 100vh;
+}
+
 /* navbar */
 
 @media (min-width: 768px) {
@@ -145,10 +149,6 @@ h1 {
   z-index: 1;
 }
 
-.about-me-title {
-  height: 100vh;
-}
-
 /* holding devin image in about me */
 .hold-image {
   height: 205px;
@@ -242,19 +242,6 @@ h1 {
   left: 60%;
 }
 
-.final-slide .nerd-hat {
-  bottom: 7%;
-}
-
-.final-slide .comm-cap {
-  bottom: 6%;
-}
-
-/*.final-slide img:first-of-type {
-  left: 75%;
-}*/
-
 .content .first {
   position: relative;
-  top: 250px;
 }
