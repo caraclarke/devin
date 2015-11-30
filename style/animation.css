@@ -1,0 +1,33 @@
+/* intro images */
+
+#intro-image-one {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  -webkit-animation-name: fadeAndScale;
+  -webkit-animation-duration: 5s;
+  animation-name: fadeAndScale;
+  animation-duration: 5s;
+}
+
+#intro-image-two {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  display: none; /* add animation, fix top animation */
+}
+
+@keyframes fadeAndScale {
+  from {opacity: 1; transform: scale(1, 1); display: visible;}
+  to {opacity: 0; transform: scale(.9, .9); display: none;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeAndScale {
+  from {opacity: 1; transform: scale(1, 1); display: visible;}
+  to {opacity: 0; transform: scale(.9, .9); display: none;}
+}
