@@ -204,12 +204,57 @@ h1 {
 }
 
 .parallax-bg h1 {
-  background: transparent;
+  position: relative;
+  top: 50vh;
 }
 
-#hats img {
-  float: right;
-  margin-left: 50%;
-  height: 75vh;
+.parallax-bg img {
+  position: relative;
+  left: 55%;
+  size: auto 40%;
+}
+
+.improvisor img {
+  left: 45%;
+  height: 300px;
+}
+
+.kid img {
+  height: 250px;
+}
+
+.community-builder, .artist img {
+  left: 60%;
+}
+
+.final-slide img {
+  height: 200px;
   width: auto;
+  position: absolute;
+  right: 0;
+}
+
+.final-slide .kid-hat {
+  left: 70%;
+}
+
+.final-slide .grad-cap {
+  left: 60%;
+}
+
+.final-slide .nerd-hat {
+  bottom: 9%;
+}
+
+.final-slide .comm-cap {
+  bottom: 8%;
+}
+
+/*.final-slide img:first-of-type {
+  left: 75%;
+}*/
+
+.content .first {
+  position: relative;
+  top: 250px;
 }

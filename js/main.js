@@ -1,13 +1,11 @@
-$(window).scroll(function(){
+(function(){
 
-  var wScroll = $(this).scrollTop();
+  var documentEl = $(document),
+      parallaxBg = $('div.parallax-bg');
 
-  if (wScroll>750) {
-    console.log(wScroll);
-  }
-
-  $('.parallax-bg').css({
-    'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
+  documentEl.on('scroll', function() {
+      var currScrollPos = documentEl.scrollTop();
+      parallaxBg.css('background-position', '0 ' + -currScrollPos/4 + 'px');
   });
 
-});
+})();
