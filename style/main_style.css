@@ -131,11 +131,6 @@ h1 {
   }
 }
 
-/*hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}*/
-
 /* about me section */
 
 #about-me {
@@ -184,50 +179,32 @@ h1 {
 
 /* hats in about me */
 
-/*.background-img {
-  background-image: url("../images/headshot-devin.png");
-  position: absolute;
-  right: 0;
-  min-height: 500px;
-  height: 400px;
-  width: auto;
-}
-
-.parallax img {
-  height: 150px;
-  width: auto;
-  float: left;
-}
-
-.parallax h1 {
-  padding-bottom: 75vh;
-}*/
-
-/*.hat-image img {
-  height: 65vh;
-  width: auto;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-*/
-
-#preload {
-  display: none;
-}
-
 .grad-cap, .jester-hat, .comm-cap, .artist-cap, .nerd-hat, .kid-hat {
-  display: none;
   background: transparent;
 }
 
 .content {
-  position: relative;
   height: 100vh;
+  background: transparent;
   background-image: url('../images/headshot-devin.png');
-  background-size: auto 75%;
-  background-position: right;
+  background-size: auto 500px;
+  background-position: 80% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.parallax-bg {
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.parallax-bg h1 {
+  background: transparent;
 }
 
 #hats img {
