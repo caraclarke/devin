@@ -26,6 +26,10 @@ h1 {
 
 /* navbar */
 
+.navbar-icon-image {
+  margin: 10px -5px;
+}
+
 @media (min-width: 768px) {
   .navbar .navbar-nav {
     display: inline-block;
@@ -51,7 +55,7 @@ h1 {
   }
 }
 
-.navbar-nav .fa-envelope {
+.navbar-nav .email-icon {
   margin-left: 100px;
 }
 
