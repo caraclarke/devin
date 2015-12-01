@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+  var styleImages = function() {
+    setTimeout(function(){ $("#intro-image-one").css("display", "none"); }, 3000);
+    setTimeout(function(){ $("#intro-image-two").removeClass("hidden"); }, 3000);
+    setTimeout(function(){ $("#intro-image-two").css("display", "none"); }, 4350);
+    setTimeout(function(){ $("#intro-images").css("display", "none"); }, 4400);
+  }
+
+  styleImages();
+
   var documentEl = $(document),
       parallaxBg = $('div.parallax-bg');
 
