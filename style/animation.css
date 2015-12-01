@@ -32,7 +32,7 @@
 
 /* first image animation */
 @keyframes fadeAndScale {
-  0% {opacity: 1; transform: scale(1, 1); height: 100%; width: 100%;}
+  0% {opacity: 1; transform: scale(1, 1); height: 100%; width: 100%;} /* change that back */
   15% {opacity: 1; transform: scale(0.5, 0.5); display: visible;}
   67% {opacity: 1; transform: scale(.9, .9); display: visible;}
   10% {opacity: 1; transform: scale(.9, .9); display: visible;}
