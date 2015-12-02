@@ -221,6 +221,8 @@ h1 {
 }
 
 .parallax-bg h1 {
+  font-size: 36px;
+  line-height: 49px;
   position: relative;
   top: 487px;
   left: 192px;
@@ -239,9 +241,8 @@ h1 {
 .grad-cap {
   height: auto;
   width: 302px;
-  top: 142px; /* subtract 100 */
-  left: 725px; /* add 25 to 50*/
-
+  top: 142px;
+  left: 725px;
 }
 
 .jester-hat {
@@ -273,7 +274,7 @@ h1 {
 }
 
 .kid-hat {
-  height: 370px;
+  height: 375px;
   width: auto;
   top: -40px;
   left: 750px;
@@ -281,17 +282,43 @@ h1 {
 
 /* final slide hats */
 
-.all-the-hats-kid {}
+.all-the-hats-kid {
+  height: 330px;
+  width: auto;
+  top: -50px;
+  left: 725px;
+  z-index: 1;
+}
 
-.all-the-hats-grad {}
+.all-the-hats-grad {
+  top: 25px;
+  left: 500px;
+  z-index: 5;
+}
 
-.all-the-hats-jester {}
+.all-the-hats-jester {
+  top: -10px;
+  left: 25px;
+  z-index: 2;
+}
 
-.all-the-hats-artist {}
+.all-the-hats-artist {
+  top: -275px;
+  left: 775px;
+  z-index: 3;
+}
 
-.all-the-hats-comm {}
+.all-the-hats-comm {
+  left: 625px;
+  top: -280px;
+  z-index: 4;
+}
 
-.all-the-hats-nerd {}
+.all-the-hats-nerd {
+  top: -325px;
+  left: 300px;
+  z-index: 6;
+}
 
 /* end hat sizes and placement */
 
