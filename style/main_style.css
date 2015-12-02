@@ -322,6 +322,41 @@ h1 {
 
 /* end hat sizes and placement */
 
+/* resume */
+#resume h2 {
+  position: relative;
+  top: 250px;
+  font-size: 54px;
+  line-height: 120px;
+}
+
+.btn-print {
+  font-size: 14px;
+  line-height: 19px;
+  padding: 10px;
+  color: #000;
+  background-color: #fff;
+  border-color: 2px solid #000;
+  position: relative;
+  top: 250px;
+  left: 200px;
+}
+
+.btn-print:hover,
+.btn-print:focus,
+.btn-print:active,
+.btn-print.active,
+.open .dropdown-toggle.btn-print {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+}
+
+.devin-resume {
+  position: relative;
+  top: 50px;
+}
+
 /* under construction pages */
 
 .under-construction img {
