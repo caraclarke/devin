@@ -204,8 +204,8 @@ h1 {
   height: 100vh;
   background: transparent;
   background-image: url('../images/headshot-devin.png');
-  background-size: auto 500px;
-  background-position: 80% 100%;
+  background-size: 472px;
+  background-position: 796px 255px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   -webkit-transition: all 0.2s ease;
@@ -222,46 +222,78 @@ h1 {
 
 .parallax-bg h1 {
   position: relative;
-  top: 50vh;
+  top: 487px;
+  left: 192px;
 }
 
 .parallax-bg img {
   position: relative;
-  left: 55%;
-  size: auto 40%;
-}
-
-.improvisor img {
-  left: 45%;
-  height: 300px;
-}
-
-.kid img {
-  height: 250px;
-}
-
-.community-builder, .artist img {
-  left: 60%;
-}
-
-.final-slide img {
-  height: 200px;
-  width: auto;
-  position: absolute;
-  right: 0;
-}
-
-.final-slide .kid-hat {
-  left: 70%;
-}
-
-.final-slide .grad-cap {
-  left: 60%;
 }
 
 .content .first {
-  position: relative;
+  top: 475px;
 }
+
+/* hat sizes & placement */
+
+.grad-cap {
+  height: auto;
+  width: 302px;
+  top: 142px; /* subtract 100 */
+  left: 725px; /* add 25 to 50*/
+
+}
+
+.jester-hat {
+  height: auto;
+  width: 510px;
+  top: 55px;
+  left: 587px;
+}
+
+.comm-cap {
+  height: auto;
+  width: 240px;
+  top: 175px;
+  left: 800px;
+}
+
+.artist-cap {
+  height: auto;
+  width: 217px;
+  top: 200px;
+  left: 790px;
+}
+
+.nerd-hat {
+  height: auto;
+  width: 227px;
+  top: 90px;
+  left: 765px;
+}
+
+.kid-hat {
+  height: 370px;
+  width: auto;
+  top: -40px;
+  left: 750px;
+}
+
+/* final slide hats */
+
+.all-the-hats-kid {}
+
+.all-the-hats-grad {}
+
+.all-the-hats-jester {}
+
+.all-the-hats-artist {}
+
+.all-the-hats-comm {}
+
+.all-the-hats-nerd {}
+
+/* end hat sizes and placement */
 
 /* under construction pages */
 
